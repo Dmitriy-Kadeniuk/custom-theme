@@ -192,6 +192,7 @@ wp_enqueue_style( 'googlel','https://fonts.googleapis.com' );
 
 wp_enqueue_style('clean-style', get_stylesheet_uri(), array(), _S_VERSION);
 wp_enqueue_style('header', get_template_directory_uri() . '/scss/header.css', false, '1.1', 'all');
+wp_enqueue_style('cart', get_template_directory_uri() . '/scss/cart.css', false, '1.1', 'all');
 wp_enqueue_style('footer', get_template_directory_uri() . '/scss/footer.css', false, '1.1', 'all');
 wp_enqueue_style('front-page', get_template_directory_uri() . '/scss/front-page.css', false, '1.1', 'all');
-wp_enqueue_style('cart', get_template_directory_uri() . '/scss/cart.css', false, '1.1', 'all');
+

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.woocommerce-product-gallery {
+  width: 25%;
+}
+
+.woocommerce-product-gallery__image {
+  display: flex !important;
+  justify-content: center;
+}
+
+.flex-control-thumbs {
+  justify-content: center;
+  display: flex;
+}
+
+.type-product {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=cart.css.map */
