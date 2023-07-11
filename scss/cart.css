@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 body {
   margin: 0;
 }
@@ -16,9 +17,18 @@ body {
   display: flex;
 }
 
-.product-type-variable {
+.main-product {
   display: flex;
   justify-content: center;
+  color: #1A2026;
+  font-family: "Merriweather", serif;
+  padding: 2rem 0px 0px 38rem;
+}
+
+.product-type-variable > a {
+  text-decoration: none;
+  color: #1A2026;
+  font-family: "Merriweather", serif;
 }
 
 .woocommerce-loop-product__link {
@@ -28,4 +38,160 @@ body {
   flex-direction: column;
   max-width: 257px;
   text-align: center;
+}
+
+.woocommerce-variation-add-to-cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.woocommerce-breadcrumb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #1A2026;
+  font-family: "Merriweather", serif;
+}
+
+.woocommerce-breadcrumb > a {
+  text-decoration: none;
+  color: #555;
+}
+
+.product_title {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+  color: #1A2026;
+}
+
+.variations {
+  font-family: "Merriweather", serif;
+  color: #1A2026;
+}
+
+.quantity {
+  width: 18%;
+}
+
+.quantity > input {
+  width: 60%;
+}
+
+.single_add_to_cart_button {
+  background-color: transparent;
+  border: 1px solid #1A2026;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.single_add_to_cart_button:hover {
+  color: #555;
+  border: 1px solid #555;
+}
+
+.tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button {
+  margin: 0 !important;
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus:before {
+  font-size: 27px !important;
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus.no-txt:before {
+  margin-top: -15px !important;
+  margin-left: 0px !important;
+}
+
+.product_meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.reset_variations {
+  text-decoration: none;
+  color: #1A2026;
+}
+
+.woocommerce-product-details__short-description {
+  width: 50%;
+}
+
+.entry-summary {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0rem 3rem;
+}
+
+.product_meta > span > a {
+  text-decoration: none;
+  color: #555;
+}
+
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+  width: auto !important;
+}
+
+.flex-control-nav > li {
+  padding: 0rem 0.2rem;
+}
+
+.woocommerce-Reviews {
+  padding: 2rem 0px 0px 38rem;
+}
+
+.woocommerce-product-rating {
+  display: flex;
+  color: #1A2026;
+}
+
+.star-rating span::before {
+  color: #1A2026 !important;
+}
+
+.woocommerce-product-rating > a {
+  color: #555;
+  text-decoration: none;
+}
+
+.input-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+p.stars:hover a::before {
+  color: #1A2026 !important;
+}
+
+.form-submit > .submit {
+  background-color: transparent;
+  border: 1px solid #1A2026;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.comment-form-comment > textarea {
+  border: 1px solid #1A2026;
+  border-radius: 5px;
+  padding: 5px 5px;
 }/*# sourceMappingURL=cart.css.map */

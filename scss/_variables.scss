@@ -6,3 +6,14 @@ $main-black:#1A2026;
 $main-white:#FBF8F5;
 $main-gray:rgba(199, 199, 199, 0.333);
 $main-light:#fcf7f1;
+$main-a-gray:#555;
+
+
+@mixin main-button{
+    background-color: transparent;
+    border: 1px solid $main-black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-weight: 600;
+    transition: 0.5s;
+}

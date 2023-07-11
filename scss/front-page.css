@@ -1,1 +1,7 @@
-/*# sourceMappingURL=front-page.css.map */
+.swiper-slide > a > img {
+  width: 60% !important;
+}
+
+.slider_baner {
+  width: 60%;
+}/*# sourceMappingURL=front-page.css.map */
