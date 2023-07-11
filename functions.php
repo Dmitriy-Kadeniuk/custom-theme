@@ -50,8 +50,12 @@ function custom_theme_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'custom-theme' ),
+			'menu-2' => esc_html__( 'second-menu', 'custom-theme' ),
+			'Phone-menu' => esc_html__( 'Phone-header-menu', 'custom-theme' ),
 		)
 	);
+
+	  
 
 	/*
 		* Switch default core markup for search form, comment form, and comments
@@ -93,14 +97,24 @@ function custom_theme_setup() {
 	add_theme_support(
 		'custom-logo',
 		array(
+			'height'      => 71,
+			'width'       => 150,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
+	add_theme_support(
+		'footer-logo',
+		array(
 			'height'      => 250,
 			'width'       => 250,
 			'flex-width'  => true,
 			'flex-height' => true,
 		)
-	);
+		);
 }
 add_action( 'after_setup_theme', 'custom_theme_setup' );
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -185,14 +199,20 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 
 
-wp_enqueue_style( 'fonts','https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap' );
-wp_enqueue_style( 'fonts','href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"' );
-wp_enqueue_style( 'gstatic','https://fonts.gstatic.com' );
-wp_enqueue_style( 'googlel','https://fonts.googleapis.com' );
 
 wp_enqueue_style('clean-style', get_stylesheet_uri(), array(), _S_VERSION);
 wp_enqueue_style('header', get_template_directory_uri() . '/scss/header.css', false, '1.1', 'all');
 wp_enqueue_style('cart', get_template_directory_uri() . '/scss/cart.css', false, '1.1', 'all');
 wp_enqueue_style('footer', get_template_directory_uri() . '/scss/footer.css', false, '1.1', 'all');
 wp_enqueue_style('front-page', get_template_directory_uri() . '/scss/front-page.css', false, '1.1', 'all');
+wp_enqueue_style('variation', get_template_directory_uri() . '/scss/variation.css', false, '1.1', 'all');
+
+wp_enqueue_style( 'swiper-style', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css' );
+wp_enqueue_script( 'swiper-script', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', array(), null, true );
+
+wp_enqueue_script( 'swiper-script-js', get_template_directory_uri() . '/js/swiper.js', array(), null, true );
+wp_enqueue_script( 'search-products', get_template_directory_uri() . '/js/search-products.js', array(), null, true );
+
+
+
 

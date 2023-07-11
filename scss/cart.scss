@@ -12,7 +12,15 @@ body{
     justify-content: center;
     display: flex;
 }
-.type-product{
+.product-type-variable{
     display: flex;
     justify-content: center;
+}
+.woocommerce-loop-product__link{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 257px;
+    text-align: center;
 }
