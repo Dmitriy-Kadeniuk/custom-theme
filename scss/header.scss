@@ -18,6 +18,7 @@ body{
     align-content: center;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem 0rem;
 }
 .search_form>img{
     width: 16%;
@@ -32,6 +33,9 @@ body{
 .mega-menu-link{
     font-weight: 700 !important;
 }
+.mega-menu-item{
+    transition: 0.5s !important;
+}
 .mega-menu-item:hover{
     border-bottom: 1px solid $main-white !important;
 
@@ -43,6 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     display: inline-flex;
+    transition: 0.5s;
 }
 .icon-menu>a:hover{
     background-color: $main-gray;
@@ -58,4 +63,8 @@ body{
 }
 .aws-container{
     width: 77%;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link {
+color: $main-white !important;
+
 }

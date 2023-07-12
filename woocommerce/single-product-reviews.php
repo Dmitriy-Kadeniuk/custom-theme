@@ -40,9 +40,9 @@ if ( ! comments_open() ) {
 		</h2>
 
 		<?php if ( have_comments() ) : ?>
-			<ol class="commentlist">
+			<ul class="commentlist">
 				<?php wp_list_comments( apply_filters( 'woocommerce_product_review_list_args', array( 'callback' => 'woocommerce_comments' ) ) ); ?>
-			</ol>
+		</ul>
 
 			<?php
 			if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
