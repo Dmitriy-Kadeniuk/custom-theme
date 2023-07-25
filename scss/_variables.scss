@@ -7,6 +7,8 @@ $main-white:#FBF8F5;
 $main-gray:rgba(199, 199, 199, 0.333);
 $main-light:#fcf7f1;
 $main-a-gray:#555;
+$main-baground-black: #32262680;
+$main-border-block:#7c7c7ccc;
 
 
 @mixin main-button{
@@ -17,3 +19,15 @@ $main-a-gray:#555;
     font-weight: 600;
     transition: 0.5s;
 }
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

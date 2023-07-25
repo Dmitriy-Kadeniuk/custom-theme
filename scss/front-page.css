@@ -1,7 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .swiper-slide > a > img {
-  width: 60% !important;
+  width: 100% !important;
+  height: 100%;
+}
+
+.front-section {
+  padding: 0rem 0rem 0rem 6rem;
+  display: flex;
 }
 
 .slider_baner {
-  width: 60%;
+  width: 68%;
+}
+
+.swiper {
+  height: 45.5rem;
+  border: 1px solid rgba(124, 124, 124, 0.8);
+}
+
+.catigories {
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.block-categores {
+  width: 67%;
+  height: 20%;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.block-categores > a {
+  position: absolute;
+  width: 17.7%;
+  height: 24.2%;
+  text-decoration: none;
+  color: #FBF8F5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rem 1rem;
+  background-color: rgba(50, 38, 38, 0.5019607843);
+  transition: 0.5s;
+  display: none;
+}
+
+.block-categores > h1 {
+  font-family: "Merriweather", serif;
+}
+
+.block-categores:hover > a {
+  display: flex;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.block-categores:hover > img {
+  box-shadow: 0px 2px 9px 0px black;
+}
+
+.block-categores > img {
+  width: 100%;
+  height: 100%;
+  border: 1.5px solid rgba(124, 124, 124, 0.8);
+}
+
+.mega-sub-menu > li > a {
+  background-color: #fcf7f1 !important;
+  border: 1px solid #1A2026 !important;
+  border-radius: 10px !important;
+  width: 65% !important;
+}
+
+.section-information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rem 6rem;
+}
+
+.block-information {
+  font-family: "Merriweather", serif;
+  color: #1A2026;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-information > h3 {
+  font-size: 1.5rem;
+}
+
+.block-information > span {
+  font-size: 0.875rem;
+}
+
+.buy-now a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.buy-now picture img {
+  width: 100%;
+}
+
+.buy-now div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: absolute;
+  font-family: "Merriweather", serif;
+  color: #FBF8F5;
+  transform: translate(5rem, 10rem);
+}
+
+.buy-now div h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 0rem;
+  font-weight: 700;
+}
+
+.buy-now div span {
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 5rem;
+  font-weight: 400;
+}
+
+.buy-now div button {
+  font-family: "Merriweather", serif;
+  color: #1A2026;
+  background-color: #FBF8F5;
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buy-now div button:hover {
+  background-color: #1A2026;
+  color: #FBF8F5;
 }/*# sourceMappingURL=front-page.css.map */

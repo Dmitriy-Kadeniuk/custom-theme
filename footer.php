@@ -11,9 +11,9 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-
-	</footer><!-- #colophon -->
+	<footer class="footer">
+	<h1>Site create Dmitriy Kadenyuk</h1>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
