@@ -1,4 +1,28 @@
+@import 'variables';
 .footer{
     background-color: $main-black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
     
+}
+.footer>h1{
+    font-size: 1.5rem;
+    color: $main-white;
+}
+.footer>h1>a{
+    color: $main-white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.footer>h1>a:hover{
+    box-shadow: -1px 3px 47px 0px $main-white;
+    border: none;
+    background: $main-white;
+    border-radius: 5px;
+    color: $main-black;
 }

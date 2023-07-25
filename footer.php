@@ -12,7 +12,9 @@
 ?>
 
 	<footer class="footer">
-	<h1>Site create Dmitriy Kadenyuk</h1>
+		
+	<h1>Site create <a href="">Dmitriy Kadenyuk</a></h1>
+	
 	</footer>
 </div><!-- #page -->
 
