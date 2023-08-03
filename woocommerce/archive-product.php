@@ -44,7 +44,7 @@ do_action( 'woocommerce_before_main_content' );
 	do_action( 'woocommerce_archive_description' );
 	?>
 </header>
-<h1>Archive product</h1>
+<h1>Archive product php</h1>
 <?php
 if ( woocommerce_product_loop() ) {
 
@@ -103,4 +103,4 @@ do_action( 'woocommerce_after_main_content' );
  */
 do_action( 'woocommerce_sidebar' );
 
-get_footer( 'shop' );
+get_footer();

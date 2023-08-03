@@ -29,8 +29,8 @@ get_header();
 			<?php endwhile; ?>
 			<?php endif; ?>
     		</div>
-    	<!-- <div class="swiper-button-next"></div>
-    	<div class="swiper-button-prev"></div> -->
+    	<div class="swiper-button-next"></div>
+    	<div class="swiper-button-prev"></div>
 		<div class="swiper-pagination-home"></div>
   	</div>
 </div>
